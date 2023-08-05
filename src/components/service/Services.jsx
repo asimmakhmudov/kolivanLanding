@@ -2,7 +2,7 @@ import React from 'react'
 import Service from './Service'
 import sImgOne from '../../assets/truckUnscreen.gif'
 import sImgTwo from '../../assets/busUnscreen.gif'
-import sImgThree from '../../assets/happyUnscreen.gif'
+import sImgThree from '../../assets/wheelUnscreen.gif'
 
 const Services = () => {
   return (
