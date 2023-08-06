@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "about": "About Us",
+    "service": "Our Service",
+    "why": "Why Choose Us",
+    "our": "Our Team",
+    "faq": "FAQ",
+    "english": "English",
+    "azerbaijani": "Azerbaijani",
+    "russian": "Russian"
+  },
+  "intro": {
+    "header": "Transportation of passengers and cargo",
+    "content": "Cargo and passenger transportation services offer reliable and efficient solutions for moving goods and people from one location to another.",
+    "placeholder": "Enter your email",
+    "button": "Send"
+  },
+  "about": {
+    "header": "About us",
+    "description1": "Kolivan is a revolutionary platform that aims to connect vehicle owners with customers, making the process of finding cargo or passenger transportation simple and efficient. Our cutting-edge technology utilizes AI models to offer optimal transportation solutions.",
+    "description2": "Finding the right transportation service can often be a daunting and time-consuming task. Whether you need to transport goods or passengers, the process typically involves numerous phone calls, negotiations, and logistical challenges. Kolivan streamlines this process by providing a user-friendly platform where customers can easily find the transportation they need.",
+    "readMore": "Read more",
+    "showLess": "Show less"
+  },
+  "services": {
+    "header": "Our Services",
+    "service1": {
+      "header": "Cargo transportation",
+      "description": "Trucking service delivers your cargo safely from one point to another using trucks and other vehicles"
+    },
+    "service2": {
+      "header": "Passenger transportation",
+      "description": "Our passenger transportation service provides comfortable and efficient travel options for individuals and groups"
+    },
+    "service3": {
+      "header": "Wheel transportation",
+      "description": "Our wheel transportation service specializes in transporting vehicles, including cars, motorcycles, and bicycles"
+    }
+  },
+  "whyus": {
+    "header": "Why Choose us",
+    "description": "You can choose us based on the following features. We are always at your service. You are in the right place for reliable and quality service.",
+    "feature1": {
+      "header": "One Click Hailing",
+      "description": "This feature is easier than calling. This way you can contact us with one click"
+    },
+    "feature2": {
+      "header": "Individual Solution",
+      "description": "You just tell us what you want and we solve your problem instantly."
+    },
+    "feature3": {
+      "header": "Great Drivers",
+      "description": "There is a driver rating system for customers. Through this feature, you can choose the most ideal driver for yourself."
+    },
+    "feature4": {
+      "header": "Customer Happiness",
+      "description": "We always think of our customers and do our best for their happiness."
+    }
+  },
+  "info": {
+    "title": "For more information call us",
+    "description": "You can contact us for more information. All your questions will be answered promptly.",
+    "contactButton": "Contact us"
+  },
+  "team": {
+    "header": "Our Team"
+  },
+  "faqs": {
+    "header": "Frequently Asked Questions",
+    "question1": {
+      "title": "What is Kolivan?",
+      "content": "Kolivan offers a simplified and efficient process for finding cargo and passenger transportation service is a revolutionary platform that connects car owners with customers."
+    },
+    "question2": {
+      "title": "Is Kolivan available for both cargo and passenger transportation?",
+      "content": "Yes, Kolivan meets the needs of both cargo and passenger transportation, offering an optimal solution for various transportation requirements."
+    },
+    "question3": {
+      "title": "What are the benefits of using Kolivan?",
+      "content": "By using Kolivan, customers can easily find transportation services without the need for multiple phone calls and negotiations. Also, car owners can maximize their earning potential by tapping into a large customer base."
+    },
+    "question4": {
+      "title": "How does Kolivan work?",
+      "content": "Kolivan uses advanced AI models to analyze various factors such as location, cargo/passenger type and available vehicles. It offers the most suitable transport solutions to customer requirements."
+    }
+  },
+  "footer": {
+    "trustedPartner": "Your Trusted Partner in Transportation Services",
+    "ourServices": "Our services",
+    "cargoTransportation": "Cargo transportation",
+    "passengerTransportation": "Passenger transportation",
+    "signInAsDriver": "Sign in as a driver",
+    "contact": "Contact"
+  }
+}

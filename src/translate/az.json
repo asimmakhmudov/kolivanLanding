@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "about": "Haqqımızda",
+    "service": "Xidmətlərimiz",
+    "why": "Niyə Biz",
+    "our": "Bizim Komandamız",
+    "faq": "FAQ",
+    "english": "İngilis",
+    "azerbaijani": "Azərbaycanca",
+    "russian": "Rus"
+  },
+  "intro": {
+    "header": "Sərnişin və yük daşınması",
+    "content": "Yük və sərnişin daşınması xidmətləri, malların və insanların bir yerden digərinə təşviq etmək üçün etibarlı və effektiv həllər təklif edir.",
+    "placeholder": "Emailinizi daxil edin",
+    "button": "Göndər"
+  },
+  "about": {
+    "header": "Haqqımızda",
+    "description1": "Kolivan, nəqliyyat vasitəsini sahibləri və müştərilərlə əlaqələndirən inqilabi bir platformadır, yüklərin və sərnişinlərin daşınmasını tapmağın sadə və effektiv yolunu təmin edir. Yüksək texnologiyalı AI modellərimiz əsasən əla daşınma həlləri təklif etmək üçün istifadə olunur.",
+    "description2": "Düzgün nəqliyyat xidməti tapmaq tez-tez təəssüflü və vaxt itkilən bir iş ola bilər. Mallarınızı və sərnişinlərinizi daşımağınız lazım gəldikdə, proses tipik olaraq bir çox telefon zəngi, müzakirələr və logistika problemləri ilə əhatə olunur. Kolivan, müştərilərin asanlıqla lazım olan daşıma xidmətini tapa biləcəyi istifadəçi dostu bir platforma təmin edərək bu prosesi sadalayır.",
+    "readMore": "Ətraflı",
+    "showLess": "Gizlət"
+  },
+  "services": {
+    "header": "Xidmətlərimiz",
+    "service1": {
+      "header": "Yük daşınması",
+      "description": "Yük maşınları və digər nəqliyyat vasitələri istifadə edərək yüklərinizi təhlükəsiz şəkildə bir nöqtədən digərinə çatdırmağınız üçün yük daşınma xidməti təklif edir."
+    },
+    "service2": {
+      "header": "Sərnişin daşınması",
+      "description": "Sərnişin daşınma xidmətimiz fərdi şəxslər və qruplar üçün rahat və effektiv səyahət variantları təmin edir."
+    },
+    "service3": {
+      "header": "Təkər daşınması",
+      "description": "Təkər daşınma xidmətimiz avtomobillər, motosikletlər və bisikletlər daxil olmaqla nəqliyyat üçün xüsusi kənd taxıları təklif edir."
+    }
+  },
+  "whyus": {
+    "header": "Niyə bizi seçməlisiniz",
+    "description": "Siz aşağıdakı xüsusiyyətlər əsasında bizi seçə bilərsiniz. Həmişə xidmətinizdəyik. Siz güvənli və keyfiyyətli xidmət üçün düzgün ünvandasınız.",
+    "feature1": {
+      "header": "Bir Klik İlə Sifariş",
+      "description": "Bu xüsusiyyət zəng etməkdən daha asandır. Bu sayədədə tək kliklə bizimlə əlaqə qura bilərsiniz."
+    },
+    "feature2": {
+      "header": "Fərdi Həll",
+      "description": "Sadəcə nə istədiyinizi bildirin və probleminizi anında həll edirik."
+    },
+    "feature3": {
+      "header": "Mükəmməl Sürücülər",
+      "description": "Müştərilər üçün bir sürücü reytinq sistemi mövcuddur. Bu xüsusiyyət vasitəsilə özünüz üçün ən uyğun sürücünü seçə bilərsiniz."
+    },
+    "feature4": {
+      "header": "Müştəri Şadlığı",
+      "description": "Həmişə müştərilərimizi nəzərə alırıq və onların şadlığı üçün əlimizdən gələni edirik."
+    }
+  },
+  "info": {
+    "title": "Daha ətraflı məlumat üçün bizə zəng edin",
+    "description": "Daha ətraflı məlumat üçün bizimlə əlaqə saxlaya bilərsiniz. Bütün suallarınıza tezliklə cavab veriləcək.",
+    "contactButton": "Bizimlə əlaqə saxlayın"
+  },
+  "team": {
+    "header": "Komandamız"
+  },
+  "faqs": {
+    "header": "Tez-tez Verilən Suallar",
+    "question1": {
+      "title": "Kolivan nədir?",
+      "content": "Kolivan avtomobil sahiblərini müştərilərlə birləşdirən inqilabi bir platformadır və yüklər və sərnişin nəqliyyat xidmətlərini tapmağını sadə və effektiv bir prosesə çevirir."
+    },
+    "question2": {
+      "title": "Kolivan həm yük, həm də sərnişin nəqliyyatı üçün mövcuddur?",
+      "content": "Bəli, Kolivan hem yük, hem də sərnişin nəqliyyatı tələblərinə cavab verir və müxtəlif nəqliyyat tələbləri üçün optimal həll təklif edir."
+    },
+    "question3": {
+      "title": "Kolivan istifadə etmənin faydaları nələrdir?",
+      "content": "Kolivan istifadə edərək müştərilər çoxsaylı zənglər və müzakirələr tələb etmədən nəqliyyat xidmətlərini asanlıqla tapa bilərlər. Həm də avtomobil sahibləri böyük bir müştəri baza ilə əlaqə qura bilər və qazanc potensialını maksimal dərəcədə artıra bilərlər."
+    },
+    "question4": {
+      "title": "Kolivan necə işləyir?",
+      "content": "Kolivan mövcud yer, yük/sərnişin növü və mövcud vasitələr kimi müxtəlif faktorları təhlil edən üstün AI modelləri istifadə edir. O, müştəri tələblərinə ən uyğun nəqliyyat həllini təklif edir."
+    }
+  },
+  "footer": {
+    "trustedPartner": "Sizin Etibarlı Nəqliyyat Xidmətləriniz",
+    "ourServices": "Xidmətlərimiz",
+    "cargoTransportation": "Yük nəqliyyatı",
+    "passengerTransportation": "Sərnişin nəqliyyatı",
+    "signInAsDriver": "Sürücü kimi daxil ol",
+    "contact": "Əlaqə"
+  }
+}

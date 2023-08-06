@@ -2,13 +2,13 @@ import React from 'react'
 import "./team.scss"
 import tLinkedin from '../../assets/linkedin.png'
 
-export const Member = ({ mImg, mName, mPosition }) => {
+export const Member = ({ mImg, mName, mPosition, mLinkedin}) => {
   return (
     <div className='member'>
         <img src={mImg} alt="member" />
         <h2>{mName}</h2>
         <p>{mPosition}</p>
-        <a href="">
+        <a href={mLinkedin} target='_blank'>
             <img src={tLinkedin} alt="" />
         </a>
     </div>

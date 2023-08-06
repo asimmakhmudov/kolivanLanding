@@ -12,7 +12,14 @@
         display: flex;
         width: 90%;
         justify-content: space-between;
+        .fContent {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+        }
         .fSection {
+            flex: 1;
+            margin-right: 30px;
             h4 {
                 font-size: 20px;
                 font-weight: 600;
@@ -20,6 +27,7 @@
             }
             p {
                 font-size: 16px;
+                margin-left: 15px;
             }
             img {
                 width: 300px;

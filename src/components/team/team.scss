@@ -6,12 +6,14 @@
     justify-content: center;
     align-items: center;
     background: #111;
-    height: 80vh;
+    min-height: 90vh;
 
     h1 {
-        font-size: 2rem;
+        font-size: 3vw;
         text-align: center;
-        margin: 2rem 0;
+        padding: 20px 0 80px 0;
+        color: var(--white);
+        width: 90%;
     }
 
     .teamBox {
@@ -21,7 +23,7 @@
         overflow-x: scroll;
         align-items: flex-start;
         width: 90vw;
-        height: 50vh;
+        height: 100%;
         grid-auto-flow: column;
     }
 
@@ -56,6 +58,18 @@
         img {
             display: none;
         }
+    }
+
+    h2 {
+        width: 100%;
+        margin: 15px 0;
+        text-align: center;
+    }
+    p {
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
+        font-size: 15px;
     }
 
     &:hover {

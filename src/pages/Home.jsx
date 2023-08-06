@@ -12,7 +12,7 @@ import { Team } from '../components/team/Team'
 const Home = () => {
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Intro/>
         <About/>
         <Services/>
