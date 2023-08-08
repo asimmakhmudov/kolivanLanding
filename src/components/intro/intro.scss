@@ -35,7 +35,7 @@
         position: absolute;
         width: 50px;
         bottom: 40px;
-        right: 40px;
+        // right: 40px;
     }
 
     form {
@@ -72,7 +72,8 @@
             position: relative;
             border-radius: 6px;
             background: var(--primary);
-            width: 7vw;
+            min-width: 7vw;
+            padding: 0 15px;
             cursor: pointer;
             border: none;
             outline: none;
@@ -86,7 +87,52 @@
                 font-weight: 500;
                 font-size: 18px;
                 width: auto;
-                margin-left: 30px;
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        height: 85vh;
+        padding: 20px;
+
+        h1 {
+            font-size: 6vw;
+            max-width: 100%;
+        }
+
+        p {
+            display: none;
+        }
+
+        form {
+            flex-direction: column;
+            width: 100%;
+            img {
+                left: 10px;
+                top: 37px;
+            }
+
+            input {
+                width: 100%;
+                padding: 15px 50px;
+                margin: 20px 0;
+            }
+
+            button {
+                margin: 10px 0;
+                width: 100%;
+                img {
+                    display: none;
+                }
+                p {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    margin: 10px 0;
+                }
             }
         }
     }

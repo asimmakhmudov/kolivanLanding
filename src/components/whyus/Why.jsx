@@ -7,7 +7,7 @@ const Why = ({ wImg, wHeader, wParagraph, wColor }) => {
     }
     display: flex;
     width: 40vw;
-    height: 25vh;
+    min-height: 25vh;
     margin: 35px;
     border-radius: 16px;
     transition: all ease 300ms;

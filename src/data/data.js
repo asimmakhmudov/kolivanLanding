@@ -1,4 +1,4 @@
-import asim from "../assets/asim2.jpg"
+import asim from "../assets/asim.jpg"
 import telman from "../assets/telman.jpeg"
 import vugar from "../assets/vugar.jpg"
 import polad from "../assets/polad.jpg"
@@ -26,7 +26,7 @@ export const TeamMembers = [
     name: "Vugar",
     surname: "Hasanov",
     photo: vugar,
-    position: "Frontend developer",
+    position: "Frontend developer, Co-founder",
     linkedin: "https://www.linkedin.com/in/vugar-hasanov-7518b7212/",
   },
   {

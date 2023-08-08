@@ -5,9 +5,9 @@
     "why": "Niyə Biz",
     "our": "Bizim Komandamız",
     "faq": "FAQ",
-    "english": "İngilis",
-    "azerbaijani": "Azərbaycanca",
-    "russian": "Rus"
+    "english": "EN",
+    "azerbaijani": "AZ",
+    "russian": "RU"
   },
   "intro": {
     "header": "Sərnişin və yük daşınması",
@@ -20,7 +20,7 @@
     "description1": "Kolivan, nəqliyyat vasitəsini sahibləri və müştərilərlə əlaqələndirən inqilabi bir platformadır, yüklərin və sərnişinlərin daşınmasını tapmağın sadə və effektiv yolunu təmin edir. Yüksək texnologiyalı AI modellərimiz əsasən əla daşınma həlləri təklif etmək üçün istifadə olunur.",
     "description2": "Düzgün nəqliyyat xidməti tapmaq tez-tez təəssüflü və vaxt itkilən bir iş ola bilər. Mallarınızı və sərnişinlərinizi daşımağınız lazım gəldikdə, proses tipik olaraq bir çox telefon zəngi, müzakirələr və logistika problemləri ilə əhatə olunur. Kolivan, müştərilərin asanlıqla lazım olan daşıma xidmətini tapa biləcəyi istifadəçi dostu bir platforma təmin edərək bu prosesi sadalayır.",
     "readMore": "Ətraflı",
-    "showLess": "Gizlət"
+    "showLess": "Daha az"
   },
   "services": {
     "header": "Xidmətlərimiz",
@@ -38,7 +38,7 @@
     }
   },
   "whyus": {
-    "header": "Niyə bizi seçməlisiniz",
+    "header": "Niyə bizi",
     "description": "Siz aşağıdakı xüsusiyyətlər əsasında bizi seçə bilərsiniz. Həmişə xidmətinizdəyik. Siz güvənli və keyfiyyətli xidmət üçün düzgün ünvandasınız.",
     "feature1": {
       "header": "Bir Klik İlə Sifariş",
@@ -60,7 +60,7 @@
   "info": {
     "title": "Daha ətraflı məlumat üçün bizə zəng edin",
     "description": "Daha ətraflı məlumat üçün bizimlə əlaqə saxlaya bilərsiniz. Bütün suallarınıza tezliklə cavab veriləcək.",
-    "contactButton": "Bizimlə əlaqə saxlayın"
+    "contactButton": "Bizimlə əlaqə"
   },
   "team": {
     "header": "Komandamız"

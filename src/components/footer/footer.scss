@@ -51,3 +51,61 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        min-height: 50vh;
+        background: #111;
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .fBox {
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            flex-direction: column;
+            .fContent {
+                display: flex;
+                justify-content: space-between;
+                flex: 1;
+                flex-direction: column;
+            }
+            .fSection {
+                flex: 1;
+                margin-right: 30px;
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-top: 40px;
+                }
+                p {
+                    font-size: 16px;
+                    margin-left: 15px;
+                }
+                img {
+                    width: 300px;
+                }
+                ul {
+                    margin-top: 25px;
+                    list-style: none;
+                    li {
+                        margin: 20px 0;
+                        a {
+                            color: var(--white);
+                            font-size: 16px;
+                            font-weight: 500;
+                            img {
+                                width: 30px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

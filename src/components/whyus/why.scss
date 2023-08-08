@@ -9,6 +9,7 @@
 
     h2 {
         font-size: 3.1vw;
+        color: #111;
     }
 
     p {
@@ -59,6 +60,58 @@
             font-size: 0.9vw;
             text-align: left;
             width: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .whyus {
+        min-height: 110vh;
+        h2 {
+            font-size: 24px;
+            margin: 40px 0 20px 0;
+        }
+        p {
+            font-size: 14px;
+            width: 90%;
+            margin: 10px 0;
+        }
+        .whyusBox {
+            width: 100%;
+            padding: 20px 0;
+        }
+    }
+    .why {
+        flex-direction: column;
+        width: 90% !important;
+        margin: 20px 0 !important;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+        height: auto !important;
+        padding: 20px 0;
+        .whyImg {
+            padding: 30px;
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .whyContent {
+            width: 100%;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            h3 {
+                font-size: 20px;
+                text-align: center;
+                margin: 5px 0;
+            }
+            p {
+                font-size: 14px;
+                text-align: center;
+                margin: 10px 0;
+                width: 90%;
+            }
         }
     }
 }

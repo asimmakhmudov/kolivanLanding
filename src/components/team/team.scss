@@ -45,6 +45,7 @@
     height: 400px;
     position: relative;
     margin: 10px;
+
     img {
         width: 200px;
         height: 200px;
@@ -65,6 +66,7 @@
         margin: 15px 0;
         text-align: center;
     }
+
     p {
         width: 100%;
         margin: 5px 0;
@@ -75,6 +77,7 @@
     &:hover {
 
         border: none;
+
         img {
             width: 300px !important;
             height: 400px !important;
@@ -83,7 +86,7 @@
             transition: all ease 400ms;
             border-radius: 16px;
         }
-        
+
         a {
             display: flex;
             position: absolute;
@@ -95,11 +98,99 @@
             align-items: center;
             justify-content: center;
             transition: all ease 400ms;
+
             img {
                 display: block;
                 width: 20px !important;
                 height: 20px !important;
                 border-radius: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team {
+        min-height: 80vh;
+
+        h1 {
+            font-size: 24px;
+            height: auto;
+            padding: 0;
+            margin: 10px 0 50px 0;
+        }
+
+        .teamBox {
+            width: 100%;
+            padding: 20px 0;
+            gap: 2px;
+        }
+    }
+
+    .member {
+        width: 260px !important;
+        margin: 0 20px;
+        gap: 2px;
+        img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        a {
+            display: none;
+
+            img {
+                display: none;
+            }
+        }
+
+        h2 {
+            width: 100%;
+            margin: 15px 0;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        p {
+            width: 100%;
+            margin: 5px 0;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        &:hover {
+
+            border: none;
+
+            img {
+                width: 260px !important;
+                height: 400px !important;
+                position: absolute;
+                border-radius: 0;
+                transition: all ease 400ms;
+                border-radius: 16px;
+            }
+
+            a {
+                display: flex;
+                position: absolute;
+                padding: 20px 25px;
+                background: linear-gradient(121deg, #252525 0%, rgba(37, 37, 37, 0.00) 100%);
+                border-radius: 10px 0 0 10px;
+                right: 0;
+                bottom: 30px;
+                align-items: center;
+                justify-content: center;
+                transition: all ease 400ms;
+
+                img {
+                    display: block;
+                    width: 20px !important;
+                    height: 20px !important;
+                    border-radius: 0;
+                }
             }
         }
     }

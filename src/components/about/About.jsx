@@ -21,9 +21,8 @@ const About = () => {
     outline: "none",
     border: readMore ? "1px solid red" : "none",
     transition: "all ease 400ms",
-    
   };
-  
+
   const paragraphStyle = {
     height: readMore ? "120px" : "0px",
     transition: "all ease 400ms",
@@ -35,20 +34,20 @@ const About = () => {
 
   return (
     <div className="about" id="about">
-    <div className="cont">
-      <div>
-        <h2>{t("about.header")}</h2>
-        <p>{t("about.description1")}</p>
-        <p style={paragraphStyle}>{t("about.description2")}</p>
-        <button onClick={readMoreHandling} style={buttonStyle}>
-          {readMore ? t("about.showLess") : t("about.readMore")}
-        </button>
+      <div className="cont">
+        <div>
+          <h2>{t("about.header")}</h2>
+          <p>{t("about.description1")}</p>
+          <p style={paragraphStyle}>{t("about.description2")}</p>
+          <button onClick={readMoreHandling} style={buttonStyle}>
+            {readMore ? t("about.showLess") : t("about.readMore")}
+          </button>
+        </div>
+      </div>
+      <div className="cont contTruck">
+        <img src={aboutImg} alt="aboutTruck" />
       </div>
     </div>
-    <div className="cont">
-      <img src={aboutImg} alt="aboutTruck" />
-    </div>
-  </div>
   );
 };
 
