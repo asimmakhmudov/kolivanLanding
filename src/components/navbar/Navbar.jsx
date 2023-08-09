@@ -7,10 +7,11 @@ import blackLang from "../../assets/blackLangLogo.png";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 const Navbar = () => {
   const [navbarBg, setNavbarBg] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,29 +51,38 @@ const Navbar = () => {
     i18n.changeLanguage(selectedLang);
     localStorage.setItem("language", selectedLang);
   };
+
+  const toggleHandle = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
   return (
     <nav className="nav" style={navbarStyle}>
       <div className="left">
         <a href="/">
-          <img src={navbarBg ? blackLogo : whiteLogo} alt="logo" />
+          {toggleMenu ? (
+            <img src={blackLogo} alt="logo" />
+          ) : (
+            <img src={navbarBg ? blackLogo : whiteLogo} alt="logo" />
+          )}
         </a>
       </div>
-      <div className="menu">
+      <div className={toggleMenu ? "menu active" : "menu"}>
         <ul>
           <li>
-            <a href="/#about">{t("navbar.about")}</a>
+            <a href="/#about" onClick={toggleHandle}>{t("navbar.about")}</a>
           </li>
           <li>
-            <a href="/#services">{t("navbar.service")}</a>
+            <a href="/#services" onClick={toggleHandle}>{t("navbar.service")}</a>
           </li>
           <li>
-            <a href="/#whyus">{t("navbar.why")}</a>
+            <a href="/#whyus" onClick={toggleHandle}>{t("navbar.why")}</a>
           </li>
           <li>
-            <a href="/#team">{t("navbar.our")}</a>
+            <a href="/#team" onClick={toggleHandle}>{t("navbar.our")}</a>
           </li>
           <li>
-            <a href="/#faqs">{t("navbar.faq")}</a>
+            <a href="/#faqs" onClick={toggleHandle}>{t("navbar.faq")}</a>
           </li>
         </ul>
       </div>
@@ -97,13 +107,23 @@ const Navbar = () => {
           <img src={navbarBg ? blackLang : whiteLang} alt="" />
         </div>
       </div>
-      <div className="navBTN">
-        <label class="burger" for="burger">
-          <input type="checkbox" id="burger" />
-          <span style={navbarBg ? {background: "#111"} : {background: "#fff"}}></span>
-          <span style={navbarBg ? {background: "#111"} : {background: "#fff"}}></span>
-          <span style={navbarBg ? {background: "#111"} : {background: "#fff"}}></span>
-        </label>
+      <div className="navBTN" onClick={toggleHandle}>
+        {toggleMenu ? (
+          <span className="spanX">&#x2715;</span>
+        ) : (
+          <label class="burger" for="burger">
+            {/* <input type="checkbox" id="burger" /> */}
+            <span
+              style={navbarBg ? { background: "#111" } : { background: "#fff" }}
+            ></span>
+            <span
+              style={navbarBg ? { background: "#111" } : { background: "#fff" }}
+            ></span>
+            <span
+              style={navbarBg ? { background: "#111" } : { background: "#fff" }}
+            ></span>
+          </label>
+        )}
       </div>
     </nav>
   );
