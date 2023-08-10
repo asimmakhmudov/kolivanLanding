@@ -19,7 +19,7 @@
         font-weight: 900 !important;
         text-align: center;
         color: var(--white);
-        margin: 20px 0;
+        margin: 32px 0;
     }
 
     p {
@@ -34,7 +34,7 @@
     .scrollMouse {
         position: absolute;
         width: 50px;
-        bottom: 40px;
+        bottom: 10px;
         // right: 40px;
     }
 
@@ -43,7 +43,7 @@
         position: relative;
         align-items: center;
         justify-content: center;
-        margin: 20px 0;
+        margin: 32px 0;
 
         input {
             border: 1px solid var(--primary);
@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-        height: 85vh;
+        height: 65vh;
         padding: 20px;
 
         h1 {

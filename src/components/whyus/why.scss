@@ -1,7 +1,7 @@
 @import url(../../index.scss);
 
 .whyus {
-    min-height: 110vh;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -10,6 +10,7 @@
     h2 {
         font-size: 3.1vw;
         color: #111;
+        margin: 156px 0 32px 0;
     }
 
     p {
@@ -21,10 +22,10 @@
     .whyusBox {
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
+        width: 95%;
         align-items: center;
         justify-content: center;
-        padding: 40px 0;
+        padding: 40px 0 80px 0;
     }
 }
 
@@ -67,10 +68,9 @@
 
 @media screen and (max-width: 768px) {
     .whyus {
-        min-height: 110vh;
         h2 {
             font-size: 24px;
-            margin: 40px 0 20px 0;
+            margin: 64px 0 24px 0;
         }
         p {
             font-size: 14px;
