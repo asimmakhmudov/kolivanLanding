@@ -18,7 +18,7 @@ i18n.init({
       translation: require('./translate/ru.json'),
     },
   },
-  lng: localStorage.getItem("language") || "az",
+  lng: localStorage.getItem("language") || "en",
   fallbackLng: "en",
 });
 
