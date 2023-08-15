@@ -37,10 +37,10 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="/">
-                  <img src={instagram} alt="" />
+                  <img src={instagram} alt="https://www.instagram.com/kolivan.az/" />
                 </a>
                 <a href="/">
-                  <img src={linkedin} alt="" />
+                  <img src={linkedin} alt="https://www.linkedin.com/company/kolivan/" />
                 </a>
               </li>
             </ul>

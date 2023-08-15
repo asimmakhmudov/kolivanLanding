@@ -101,7 +101,7 @@
         h1 {
             font-size: 6vw;
             max-width: 100%;
-            margin-top: 32px;
+            margin: 0px;
         }
 
         p {
@@ -111,20 +111,20 @@
         form {
             flex-direction: column;
             width: 100%;
-            margin: 20px 0;
+            margin: 24px 0;
             img {
                 left: 10px;
-                top: 37px;
+                top: 20px;
             }
 
             input {
                 width: 100%;
                 padding: 15px 50px;
-                margin: 20px 0;
+                margin: 0;
             }
 
             button {
-                margin: 10px 0;
+                margin: 16px 0;
                 width: 100%;
                 img {
                     display: none;
