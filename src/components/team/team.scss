@@ -25,6 +25,7 @@
         width: 90vw;
         height: 100%;
         grid-auto-flow: column;
+        padding-bottom: 40px;
     }
 
     ::-webkit-scrollbar {
@@ -71,7 +72,7 @@
         width: 100%;
         margin: 5px 0;
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     &:hover {

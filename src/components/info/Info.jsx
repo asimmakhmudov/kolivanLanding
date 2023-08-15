@@ -18,8 +18,8 @@ const Info = () => {
             </button>
           </a>
         </div>
+        <img src={truckImg} alt="" />
       </div>
-      <img src={truckImg} alt="" />
     </div>
   );
 };
