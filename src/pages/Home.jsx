@@ -7,6 +7,7 @@ import Whyus from '../components/whyus/Whyus'
 import { Faqs } from '../components/faq/Faqs'
 import { Footer } from '../components/footer/Footer'
 import { Team } from '../components/team/Team'
+// import HowItWorks from '../components/howitwork/HowItWorks'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Services/>
         <Info/>
         <Whyus/>
+        {/* <HowItWorks/> */}
         <Team/>
         <Faqs/>
 

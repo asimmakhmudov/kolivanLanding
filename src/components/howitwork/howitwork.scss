@@ -1,0 +1,25 @@
+@import url(../../index.scss);
+
+.howItWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .hBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.how {
+    display: flex;
+    .hLeft {
+        flex: 1;
+        background: url("../../assets/stepBg.png");
+    }
+    .hRight {
+        flex: 1;
+    }
+}
