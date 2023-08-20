@@ -2,6 +2,7 @@
   "navbar": {
     "about": "Haqqımızda",
     "service": "Xidmətlərimiz",
+    "how": "Necə İşləyir",
     "why": "Niyə Biz",
     "our": "Bizim Komandamız",
     "faq": "FAQ",
@@ -55,6 +56,23 @@
     "feature4": {
       "header": "Müştəri Şadlığı",
       "description": "Həmişə müştərilərimizi nəzərə alırıq və onların şadlığı üçün əlimizdən gələni edirik."
+    }
+  },
+  "how": {
+    "step1": {
+      "header": "Kateqoriya Seçin",
+      "paragraph": "Bir kateqoriya seçin və tələbi göndərin"
+    },
+    "step2": {
+      "header": "Tələbi Göndərin",
+      "paragraph": "Sürücü olaraq siz müştəridən gələn tələbləri görməlisiniz"
+    },
+    "step3": {
+      "header": "Yükünüzü İzləyin",
+      "paragraph": "Sürücülər və müştərilər səyahəti canlı izləyəcəklər"
+    },
+    "howItWorks": {
+      "title": "Necə İşləyir"
     }
   },
   "info": {

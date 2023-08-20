@@ -5,21 +5,151 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    h2 {
+        // margin: 64px 0;
+        margin-bottom: 64px;
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+        color: var(--secondary);
+    }
     .hBox {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        height: 100%;
     }
 }
 
 
 .how {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 150px;
+    
     .hLeft {
         flex: 1;
-        background: url("../../assets/stepBg.png");
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+        .mockup {
+            width: 370px;
+            height: 700px;
+        }
+
+        .stepBg {
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            z-index: -1;
+        }
     }
+
+
     .hRight {
         flex: 1;
+        height: 100%;
+        display: flex;
+        width: 100%;
+        justify-content: start;
+
+        .bar1 {
+            height: 610px;
+            width: 6px;
+            background: var(--gray);
+            border-radius: 40px;
+        }
+
+        .bar2 {
+            height: 200px;
+            width: 6px;
+            border-radius: 40px;
+            background: var(--primary);
+            position: absolute;
+        }
+
+        .content {
+            margin-left: 26px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3 {
+                font-size: 32px;
+                margin-bottom: 12px;
+                color: #2C2C2C;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 24px;
+                color: #636363;
+                font-family: Inter, sans-serif;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .howItWork {
+        min-height: auto;
+        padding-bottom: 64px;
+        h2 {
+            margin: 36px 0;
+            font-size: 24px;
+        }
+    }
+    .how {
+        height: 100%;
+        padding: 0;
+        .hLeft {
+
+            .mockup {
+                width: 130px;
+                height: 270px;
+            }
+            
+            .stepBg {
+                // width: 170px;
+                // height: 200px;
+                display: none;
+            }
+        }
+
+        .hRight {
+            .bar1 {
+                height: 270px;
+                width: 2px;
+            }
+
+            .bar2 {
+                height: 90px;
+                width: 2px;
+            }
+
+            .content {
+                margin-left: 10px;
+                height: 90px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h3 {
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 8px;
+                }
+            }
+        }
     }
 }

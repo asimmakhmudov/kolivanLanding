@@ -7,7 +7,6 @@ import blackLang from "../../assets/blackLangLogo.png";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-// import styled from "styled-components";
 
 const Navbar = () => {
   const [navbarBg, setNavbarBg] = useState(false);
@@ -74,6 +73,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="/#services" onClick={toggleHandle}>{t("navbar.service")}</a>
+          </li>
+          <li>
+            <a href="/#whyus" onClick={toggleHandle}>{t("navbar.how")}</a>
           </li>
           <li>
             <a href="/#whyus" onClick={toggleHandle}>{t("navbar.why")}</a>

@@ -2,6 +2,7 @@
   "navbar": {
     "about": "About Us",
     "service": "Our Service",
+    "how": "How it works",
     "why": "Why Choose Us",
     "our": "Our Team",
     "faq": "FAQ",
@@ -55,6 +56,23 @@
     "feature4": {
       "header": "Customer Happiness",
       "description": "We always think of our customers and do our best for their happiness."
+    }
+  },
+  "how": {
+    "step1": {
+      "header": "Choose Category",
+      "paragraph": "Select a category and submit a request"
+    },
+    "step2": {
+      "header": "Send Request",
+      "paragraph": "As the driver, you will see the requests from the customer"
+    },
+    "step3": {
+      "header": "Track Your Cargo",
+      "paragraph": "Drivers and customers will follow the journey in real time"
+    },
+    "howItWorks": {
+      "title": "How It Works"
     }
   },
   "info": {

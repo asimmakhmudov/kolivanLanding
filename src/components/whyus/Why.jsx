@@ -12,6 +12,7 @@ const Why = ({ wImg, wHeader, wParagraph, wColor }) => {
     border-radius: 16px;
     transition: all ease 300ms;
   `;
+  
   const WhyImg = styled.div`
     background-color: ${wColor};
   `;
