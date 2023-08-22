@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import whiteLogo from "../../assets/whiteLogo.png";
-import blackLogo from "../../assets/blackLogo.png";
+// import blackLogo from "../../assets/blackLogo.png";
 import whiteLang from "../../assets/whiteLangLogo.png";
 import blackLang from "../../assets/blackLangLogo.png";
 import { useState } from "react";
@@ -60,9 +60,9 @@ const Navbar = () => {
       <div className="left">
         <a href="/">
           {toggleMenu ? (
-            <img src={blackLogo} alt="logo" />
+            <img src="https://res.cloudinary.com/dumlkkkwe/image/upload/v1692735203/landingPhoto/bacwhsdjjplx6cu9dob0.png" alt="logo" />
           ) : (
-            <img src={navbarBg ? blackLogo : whiteLogo} alt="logo" />
+            <img src={navbarBg ? "https://res.cloudinary.com/dumlkkkwe/image/upload/v1692735203/landingPhoto/bacwhsdjjplx6cu9dob0.png" : whiteLogo} alt="logo" />
           )}
         </a>
       </div>
