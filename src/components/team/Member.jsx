@@ -8,7 +8,7 @@ export const Member = ({ mImg, mName, mPosition, mLinkedin}) => {
         <img src={mImg} alt="member" />
         <h2>{mName}</h2>
         <p>{mPosition}</p>
-        <a href={mLinkedin} target='_blank'>
+        <a href={mLinkedin}>
             <img src={tLinkedin} alt="" />
         </a>
     </div>
