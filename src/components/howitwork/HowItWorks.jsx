@@ -39,7 +39,7 @@ const HowItWorks = () => {
         hImg={step3}
         hHeader={t("how.step3.header")}
         hParagraph={t("how.step3.paragraph")}
-        barStyle={{ alignItems: "flexEnd" }}
+        barStyle={{ alignItems: "end" }}
       />
     );
   };
