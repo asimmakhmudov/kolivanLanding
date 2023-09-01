@@ -1,15 +1,5 @@
-general:
-  company_name: Kolivan
-  server_name: kolivan.az
-  default_locale: en_US
-
-
-dns:
-  nameservers:
-    - ns5.sayt.az
-    - ns6.sayt.az
-  
-domains:
-  - domain_name: kolivan.az
-    document_root: /home/kolivan66/repositories/hirpoLanding 
-    ssl_enabled: true
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kolivan66/repositories/kolivanLanding 
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
