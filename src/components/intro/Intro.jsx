@@ -12,14 +12,11 @@ const Intro = () => {
     <div className='intro'>
       <h1>{t('intro.header')}</h1>
       <p>{t('intro.content')}</p>
-      <form action="">
-        <img src={mailIcon} alt="mailIcon" />
-        <input type="email" placeholder={t('intro.placeholder')} />
+      <div className='linktoproduct'>
         <button>
-          <img src={sendIcon} alt="sendIcon" />
           <p>{t('intro.button')}</p>
         </button>
-      </form>
+      </div>
       <img src={scrollAnimation} alt="scrollMouse" className='scrollMouse' />
     </div>
   );

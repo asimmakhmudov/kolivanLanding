@@ -39,31 +39,12 @@
         // right: 40px;
     }
 
-    form {
+    .linktoproduct {
         display: flex;
         position: relative;
         align-items: center;
         justify-content: center;
         margin: 64px 0;
-
-        input {
-            border: 1px solid var(--primary);
-            background: transparent;
-            color: var(--primary);
-            outline: none;
-            border-radius: 6px;
-            padding: 20px 50px;
-            width: 25vw;
-            margin-right: 20px;
-            font-size: 18px;
-        }
-
-        img {
-            position: absolute;
-            left: 15px;
-            top: auto;
-            bottom: auto;
-        }
 
         button {
             margin-left: 20px;
@@ -73,22 +54,17 @@
             position: relative;
             border-radius: 6px;
             background: var(--primary);
-            min-width: 7vw;
-            padding: 0 15px;
             cursor: pointer;
             border: none;
             outline: none;
-            height: 100%;
-            img {
-                margin: 0 5px;
-            }
+            height: 60px;
+            min-width: 180px;
 
             p {
                 color: var(--white);
                 font-weight: 500;
                 font-size: 18px;
                 width: auto;
-                margin-left: 40px;
             }
         }
     }

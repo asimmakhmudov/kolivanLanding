@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
     align-items: flex-end;
+
     .infoBox {
         background: linear-gradient(to top, var(--primary) 0%, var(--primary) 80%, var(--white) 80%, var(--white) 100%);
         display: flex;
@@ -13,6 +14,7 @@
         min-height: 60px;
         justify-content: space-between;
         align-items: flex-end;
+
         .infoContent {
             height: 100%;
             width: auto;
@@ -21,6 +23,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+
             h3 {
                 font-size: 36px;
                 color: var(--white);
@@ -28,37 +31,43 @@
                 width: auto;
                 margin-bottom: 12px;
             }
+
             p {
                 font-size: 16px;
                 color: var(--white);
                 font-weight: 400;
             }
-            button {
-                min-width: 10vw;
-                height: 7vh;
-                background: var(--secondary);
-                border: none;
-                border-radius: 5px;
-                color: var(--white);
-                font-size: 18px;
-                font-weight: 500;
-                cursor: pointer;
-                padding: 15px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 36px 0;
-                &:hover {
-                    background: rgb(46, 46, 46);
-                }
-                span {
-                    font-size: 1.2vw;
-                    margin-left: 15px;
-                    margin-top: 2.5px;
-                    height: auto;
+
+            div {
+
+                a {
+                    margin: 0;
+                    padding: 0;
+                    button {
+                        min-width: 10vw;
+                        height: 7vh;
+                        background: var(--secondary);
+                        border: none;
+                        border-radius: 5px;
+                        color: var(--white);
+                        font-size: 18px;
+                        font-weight: 500;
+                        cursor: pointer;
+                        padding: 15px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 36px 0;
+
+                        &:hover {
+                            background: rgb(46, 46, 46);
+                        }
+
+                    }
                 }
             }
         }
+
         img {
             height: 450px;
             width: 650px;
@@ -66,27 +75,33 @@
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .info {
         .infoBox {
             flex-direction: column-reverse;
             align-items: center;
+
             .infoContent {
                 margin: 0;
                 padding: 0 20px;
+
                 h3 {
                     font-size: 24px;
                 }
+
                 p {
                     font-size: 14px;
                 }
+
                 button {
                     font-size: 14px;
+
                     span {
                         font-size: 14px;
                     }
                 }
             }
+
             img {
                 height: 200px;
                 width: 300px;

@@ -12,11 +12,14 @@ const Info = () => {
         <div className="infoContent">
           <h3>{t("info.title")}</h3>
           <p>{t("info.description")}</p>
+          <div>
+
           <a href="tel:0515287097">
             <button>
               {t("info.contactButton")} <span>&#x3e;</span>
             </button>
           </a>
+          </div>
         </div>
         <img src={truckImg} alt="" />
       </div>
