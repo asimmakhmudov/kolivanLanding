@@ -1,5 +1,5 @@
 import asim from "../assets/asim.jpg"
-import telman from "../assets/telman.jpeg"
+import telman from "../assets/telman.jpg"
 import vugar from "../assets/vugar.jpg"
 import polad from "../assets/polad.jpg"
 import aygun from "../assets/aygun.jpg"

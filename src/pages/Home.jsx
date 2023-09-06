@@ -8,6 +8,7 @@ import { Faqs } from '../components/faq/Faqs'
 import { Footer } from '../components/footer/Footer'
 import { Team } from '../components/team/Team'
 import HowItWorks from '../components/howitwork/HowItWorks'
+import Contact from '../components/contact/Contact'
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
         <HowItWorks/>
         <Team/>
         <Faqs/>
-
+        <Contact/>
         <Footer/>
     </>
   )
