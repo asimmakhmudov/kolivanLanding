@@ -82,3 +82,28 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        padding: 64px 20px;
+        .formBox {
+            width: 100%;
+            form {
+                width: 100%;
+                label {
+                    input {
+                        width: 100%;
+                    }
+                    textarea {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .animationContact {
+            display: none;
+        }
+    }
+}

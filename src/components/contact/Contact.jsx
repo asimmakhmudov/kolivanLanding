@@ -7,35 +7,37 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 const Contact = () => {
-  const formRef = useRef();
-  const [send, setSend] = useState();
+  // const formRef = useRef();
+  const [phoneNum, setPhoneNum] = useState();
+  // const [name, setName] = useState("");
+  // const [surname, setSurname] = useState();
+  // const [message, setMessage] = useState();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm(
         "service_whrx4gj",
         "template_zpa43lf",
-        formRef.current,
+        e.target,
         "uCRhV-dtMClq0v9dw"
       )
       .then(
         (result) => {
           console.log(result.text);
-          setSend(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
-
-//   console.log(send);
+  
 
   return (
     <div className="contact">
       <div className="formBox">
-        <form ref={formRef} onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <h2>Contact us</h2>
           <p>Contact us, we will get back to you soon.</p>
           <label htmlFor="">
@@ -44,7 +46,9 @@ const Contact = () => {
               type="text"
               id="name"
               name="name"
+              // onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name"
+              required
             />
           </label>
           <label htmlFor="">
@@ -53,7 +57,9 @@ const Contact = () => {
               type="text"
               id="surname"
               name="name"
+              // onChange={(e) => setSurname(e.target.value)}
               placeholder="Enter your surname"
+              required
             />
           </label>
           <label htmlFor="phone">
@@ -62,19 +68,23 @@ const Contact = () => {
               placeholder="Enter phone number"
               international
               defaultCountry="AZ"
+              onChange={setPhoneNum}
               id="phone"
               name="phone"
               style={{
-                width: "498px",
+                maxWidth: "498px",
               }}
+              required
             />
           </label>
           <label htmlFor="message">
             <p>Message</p>
             <textarea
-              name=""
+              name="message"
               id="message"
+              // onChange={(e) => setMessage(e.target.value)}
               placeholder="Enter message"
+              required
             ></textarea>
           </label>
           <button className="sendButton" type="submit">
