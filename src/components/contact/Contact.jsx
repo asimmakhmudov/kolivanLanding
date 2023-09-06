@@ -7,15 +7,11 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 const Contact = () => {
-  // const formRef = useRef();
   const [phoneNum, setPhoneNum] = useState();
-  // const [name, setName] = useState("");
-  // const [surname, setSurname] = useState();
-  // const [message, setMessage] = useState();
+  const [sended, setSended] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
     emailjs
       .sendForm(
         "service_whrx4gj",
@@ -26,6 +22,8 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setSended(true);
+          window.location.reload()
         },
         (error) => {
           console.log(error.text);
@@ -46,7 +44,6 @@ const Contact = () => {
               type="text"
               id="name"
               name="name"
-              // onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name"
               required
             />
@@ -57,7 +54,6 @@ const Contact = () => {
               type="text"
               id="surname"
               name="name"
-              // onChange={(e) => setSurname(e.target.value)}
               placeholder="Enter your surname"
               required
             />
@@ -82,7 +78,6 @@ const Contact = () => {
             <textarea
               name="message"
               id="message"
-              // onChange={(e) => setMessage(e.target.value)}
               placeholder="Enter message"
               required
             ></textarea>
