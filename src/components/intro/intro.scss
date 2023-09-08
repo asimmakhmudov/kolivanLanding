@@ -60,7 +60,7 @@
             height: 60px;
             min-width: 180px;
             color: var(--white);
-            font-size: 1vw;
+            font-size: 18px;
             text-align: center;
 
             p {
@@ -104,21 +104,7 @@
                 margin: 0;
             }
 
-            button {
-                margin: 16px 0;
-                width: 100%;
-
-                img {
-                    display: none;
-                }
-
-                p {
-                    display: block;
-                    width: 100%;
-                    text-align: center;
-                    margin: 10px 0;
-                }
-            }
+            
         }
     }
 }
