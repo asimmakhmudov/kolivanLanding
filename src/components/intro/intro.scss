@@ -59,6 +59,9 @@
             outline: none;
             height: 60px;
             min-width: 180px;
+            color: var(--white);
+            font-size: 1vw;
+            text-align: center;
 
             p {
                 color: var(--white);
@@ -89,6 +92,7 @@
             flex-direction: column;
             width: 100%;
             margin: 24px 0;
+
             img {
                 left: 10px;
                 top: 20px;
@@ -103,9 +107,11 @@
             button {
                 margin: 16px 0;
                 width: 100%;
+
                 img {
                     display: none;
                 }
+
                 p {
                     display: block;
                     width: 100%;
