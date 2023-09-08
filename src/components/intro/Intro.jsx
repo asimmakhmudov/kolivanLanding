@@ -14,7 +14,7 @@ const Intro = () => {
       <p>{t('intro.content')}</p>
       <div className='linktoproduct'>
         <button>
-          <p>{t('intro.button')}</p>
+          <p>{t('intro.start')}</p>
         </button>
       </div>
       <img src={scrollAnimation} alt="scrollMouse" className='scrollMouse' />

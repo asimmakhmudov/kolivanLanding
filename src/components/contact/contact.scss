@@ -7,7 +7,7 @@
     justify-content: center;
     height: auto;
     width: 100%;
-    padding: 156px 0;
+    padding-bottom: 156px;
     .formBox {
         flex: 1;
         display: flex;
@@ -78,7 +78,7 @@
         // justify-content: center;
         img {
             width: 600px;
-            height: 420px;
+            height: 500px;
         }
     }
 }

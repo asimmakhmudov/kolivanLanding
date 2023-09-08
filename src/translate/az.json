@@ -4,17 +4,17 @@
     "service": "Xidmətlərimiz",
     "how": "Necə İşləyir",
     "why": "Niyə Biz",
-    "our": "Bizim Komandamız",
+    "our": "Komandamız",
     "faq": "FAQ",
+    "contact": "Əlaqə",
     "english": "EN",
     "azerbaijani": "AZ",
     "russian": "RU"
   },
   "intro": {
     "header": "Sərnişin və yük daşınması",
-    "content": "Yük və sərnişin daşınması xidmətləri, malların və insanların bir yerden digərinə təşviq etmək üçün etibarlı və effektiv həllər təklif edir.",
-    "placeholder": "Emailinizi daxil edin",
-    "button": "Başla (tezliklə)"
+    "content": "Yük və sərnişin daşınması xidmətləri üçün etibarlı və effektiv həllər təklif edir.",
+    "start": "Başla (tezliklə)"
   },
   "about": {
     "header": "Haqqımızda",
@@ -34,16 +34,16 @@
       "description": "Sərnişin daşınma xidmətimiz fərdi şəxslər və qruplar üçün rahat və effektiv səyahət variantları təmin edir."
     },
     "service3": {
-      "header": "Təkər daşınması",
-      "description": "Təkər daşınma xidmətimiz avtomobillər, motosikletlər və bisikletlər daxil olmaqla nəqliyyat üçün xüsusi kənd taxıları təklif edir."
+      "header": "Sürücü kimi daxil olun",
+      "description": "Bu xidmətdə sizə sürücü kimi qeydiyyatdan keçə, burada sizə uyğun olan sifarişləri qəbul edə və iş imkanı əldə edə bilərsiz"
     }
   },
   "whyus": {
-    "header": "Niyə bizi",
+    "header": "Niyə Kolivan",
     "description": "Siz aşağıdakı xüsusiyyətlər əsasında bizi seçə bilərsiniz. Həmişə xidmətinizdəyik. Siz güvənli və keyfiyyətli xidmət üçün düzgün ünvandasınız.",
     "feature1": {
       "header": "Bir Klik İlə Sifariş",
-      "description": "Bu xüsusiyyət zəng etməkdən daha asandır. Bu sayədədə tək kliklə bizimlə əlaqə qura bilərsiniz."
+      "description": "Bu zəng etməkdən daha asandır. Bu sayədə tək kliklə nəqliyyat ehtiyacınızı ödəyə bilərsiniz."
     },
     "feature2": {
       "header": "Fərdi Həll",
@@ -54,22 +54,22 @@
       "description": "Müştərilər üçün bir sürücü reytinq sistemi mövcuddur. Bu xüsusiyyət vasitəsilə özünüz üçün ən uyğun sürücünü seçə bilərsiniz."
     },
     "feature4": {
-      "header": "Müştəri Şadlığı",
-      "description": "Həmişə müştərilərimizi nəzərə alırıq və onların şadlığı üçün əlimizdən gələni edirik."
+      "header": "Müştəri Məmnuniyyəti",
+      "description": "Həmişə müştərilərimizi nəzərə alırıq və onların məmnuniyyəti üçün əlimizdən gələni edirik."
     }
   },
   "how": {
     "step1": {
       "header": "Kateqoriya Seçin",
-      "paragraph": "Bir kateqoriya seçin və tələbi göndərin"
+      "paragraph": "Müştəri olaraq bir kateqoriya seçin və sifarişi göndərin"
     },
     "step2": {
-      "header": "Tələbi Göndərin",
-      "paragraph": "Sürücü olaraq siz müştəridən gələn tələbləri görməlisiniz"
+      "header": "Sifarişi qəbulu",
+      "paragraph": "Sürücü olaraq siz müştəridən gələn sifarişi görəcək sizə uyğun işi qəbul edəcəksiz"
     },
     "step3": {
-      "header": "Yükünüzü İzləyin",
-      "paragraph": "Sürücülər və müştərilər səyahəti canlı izləyəcəklər"
+      "header": "Yükünüzü və sərnişin daşıma prosesini izləyin",
+      "paragraph": "Sürücülər və müştərilər səyahəti real zamanlı olaraq izləyəcəklər"
     },
     "howItWorks": {
       "title": "Necə İşləyir"
@@ -77,7 +77,7 @@
   },
   "info": {
     "title": "Daha ətraflı məlumat üçün bizə zəng edin",
-    "description": "Daha ətraflı məlumat üçün bizimlə əlaqə saxlaya bilərsiniz. Bütün suallarınıza tezliklə cavab veriləcək.",
+    "description": "Daha ətraflı məlumat üçün bizimlə əlaqə saxlaya bilərsiniz. Bütün suallarınıza cavab veriləcək.",
     "contactButton": "Bizimlə əlaqə"
   },
   "team": {
@@ -87,7 +87,7 @@
     "header": "Tez-tez Verilən Suallar",
     "question1": {
       "title": "Kolivan nədir?",
-      "content": "Kolivan avtomobil sahiblərini müştərilərlə birləşdirən inqilabi bir platformadır və yüklər və sərnişin nəqliyyat xidmətlərini tapmağını sadə və effektiv bir prosesə çevirir."
+      "content": "Kolivan şəxsi yük və sərnişin daşıma avtomobili sahiblərini müştərilərlə birləşdirən bir platformadır. Yük və sərnişin daşıma nəqliyyat xidmətlərini tapmağı sadə və effektiv bir prosesə çevirir."
     },
     "question2": {
       "title": "Kolivan həm yük, həm də sərnişin nəqliyyatı üçün mövcuddur?",
@@ -95,12 +95,28 @@
     },
     "question3": {
       "title": "Kolivan istifadə etmənin faydaları nələrdir?",
-      "content": "Kolivan istifadə edərək müştərilər çoxsaylı zənglər və müzakirələr tələb etmədən nəqliyyat xidmətlərini asanlıqla tapa bilərlər. Həm də avtomobil sahibləri böyük bir müştəri baza ilə əlaqə qura bilər və qazanc potensialını maksimal dərəcədə artıra bilərlər."
+      "content": "Kolivan istifadə edərək müştərilər çoxsaylı zənglər və müzakirələr aparmadan nəqliyyat xidmətlərini asanlıqla tapa bilərlər. Həm də avtomobil sahibləri böyük bir müştəri bazası ilə əlaqə quraraq qazanc potensialını maksimal dərəcədə artıra bilərlər."
     },
     "question4": {
       "title": "Kolivan necə işləyir?",
       "content": "Kolivan mövcud yer, yük/sərnişin növü və mövcud vasitələr kimi müxtəlif faktorları təhlil edən üstün AI modelləri istifadə edir. O, müştəri tələblərinə ən uyğun nəqliyyat həllini təklif edir."
     }
+  },
+  "contact": {
+    "header": "Bizimlə Əlaqə",
+    "description": "Bizimlə əlaqə saxlayın, tezliklə sizə cavab verəcəyik.",
+    "name": "Ad",
+    "namePlaceholder": "Adınızı daxil edin",
+    "surname": "Soyad",
+    "surnamePlaceholder": "Soyadınızı daxil edin",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınızı daxil edin",
+    "send": "Göndər",
+    "succesHeader": "Göndərildi!",
+    "succesDescription": "Mesajınız uğurla göndərildi. Ən qısa zamanda sizinlə əlaqə saxlayacağıq.",
+    "errorHeader": "Uups!",
+    "errorDescription": "Mesaj göndərilərkən xəta baş verdi. Zəhmət olmasa bir daha cəhd edin."
   },
   "footer": {
     "trustedPartner": "Sizin Etibarlı Nəqliyyat Xidmətləriniz",

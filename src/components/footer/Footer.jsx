@@ -31,16 +31,26 @@ export const Footer = () => {
                 <a href="tel:0515287097">+994-051-528-70-97</a>
               </li>
               <li>
-                <a href="mailto:kolivancompany@gmail.com">
-                  kolivancompany@gmail.com
+                <a href="mailto:kolivancompany@gmail.com">info@kolivan.az</a>
+              </li>
+              <li>
+                <a href="https://www.google.com/maps/place/Bayil+Plaza/@40.3488813,49.8359303,15z/data=!4m6!3m5!1s0x40307d96e8077821:0xbe3c1e56ae574935!8m2!3d40.3488813!4d49.8359303!16s%2Fg%2F11ghfq2gwz?entry=ttu">
+                  Bakı, Azərbaycan, Səbail rayonu, Neftçi Qurban küçəsi 29,
+                  Bayıl Plaza
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <img src={instagram} alt="https://www.instagram.com/kolivan.az/" />
+                <a href="https://www.instagram.com/kolivan.az/">
+                  <img
+                    src={instagram}
+                    alt="https://www.instagram.com/kolivan.az/"
+                  />
                 </a>
-                <a href="/">
-                  <img src={linkedin} alt="https://www.linkedin.com/company/kolivan/" />
+                <a href="https://www.linkedin.com/company/kolivan/">
+                  <img
+                    src={linkedin}
+                    alt="https://www.linkedin.com/company/kolivan/"
+                  />
                 </a>
               </li>
             </ul>

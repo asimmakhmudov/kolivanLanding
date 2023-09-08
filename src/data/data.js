@@ -26,7 +26,7 @@ export const TeamMembers = [
     name: "Vugar",
     surname: "Hasanov",
     photo: vugar,
-    position: "Frontend developer, Co-founder",
+    position: "Co-founder, Frontend developer",
     linkedin: "https://www.linkedin.com/in/vugar-hasanov-7518b7212/",
   },
   {

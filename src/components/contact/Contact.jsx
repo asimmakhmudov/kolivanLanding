@@ -4,7 +4,8 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import contactImg from "../../assets/contactimg.png";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import { useTranslation } from "react-i18next";
+import swal from "sweetalert";
 
 const Contact = () => {
   const [phoneNum, setPhoneNum] = useState();
@@ -23,45 +24,54 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setSended(true);
-          window.location.reload()
+          swal(
+            `${t("contact.succesHeader")}`,
+            `${t("contact.succesDescription")}`,
+            "success"
+          );
         },
         (error) => {
+          swal(
+            `${t("contact.errorHeader")}`,
+            `${t("contact.errorDescription")}`,
+            "error"
+          );
           console.log(error.text);
         }
       );
   };
-  
+
+  const { t, i18n } = useTranslation();
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="formBox">
         <form onSubmit={handleSubmit}>
-          <h2>Contact us</h2>
-          <p>Contact us, we will get back to you soon.</p>
+          <h2>{t("contact.header")}</h2>
+          <p>{t("contact.description")}</p>
           <label htmlFor="">
-            <p>Name</p>
+            <p>{t("contact.name")}</p>
             <input
               type="text"
               id="name"
               name="name"
-              placeholder="Enter your name"
+              placeholder={t("contact.namePlaceholder")}
               required
             />
           </label>
           <label htmlFor="">
-            <p>Surname</p>
+            <p>{t("contact.surname")}</p>
             <input
               type="text"
               id="surname"
               name="name"
-              placeholder="Enter your surname"
+              placeholder={t("contact.surnamePlaceholder")}
               required
             />
           </label>
           <label htmlFor="phone">
-            <p>Phone</p>
+            <p>{t("contact.phone")}</p>
             <PhoneInput
-              placeholder="Enter phone number"
               international
               defaultCountry="AZ"
               onChange={setPhoneNum}
@@ -74,11 +84,11 @@ const Contact = () => {
             />
           </label>
           <label htmlFor="message">
-            <p>Message</p>
+            <p>{t("contact.message")}</p>
             <textarea
               name="message"
               id="message"
-              placeholder="Enter message"
+              placeholder={t("contact.messagePlaceholder")}
               required
             ></textarea>
           </label>
