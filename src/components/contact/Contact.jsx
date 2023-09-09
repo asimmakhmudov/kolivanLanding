@@ -104,7 +104,7 @@ const Contact = () => {
             />
           </label>
           <button className="sendButton" type="submit">
-            Send
+            {t("contact.send")}
           </button>
         </form>
       </div>
