@@ -75,10 +75,10 @@ const Navbar = () => {
             <a href="/#services" onClick={toggleHandle}>{t("navbar.service")}</a>
           </li>
           <li>
-            <a href="/#howItWork" onClick={toggleHandle}>{t("navbar.how")}</a>
+            <a href="/#whyus" onClick={toggleHandle}>{t("navbar.why")}</a>
           </li>
           <li>
-            <a href="/#whyus" onClick={toggleHandle}>{t("navbar.why")}</a>
+            <a href="/#howItWork" onClick={toggleHandle}>{t("navbar.how")}</a>
           </li>
           <li>
             <a href="/#team" onClick={toggleHandle}>{t("navbar.our")}</a>
