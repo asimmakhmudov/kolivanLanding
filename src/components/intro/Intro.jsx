@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './intro.scss';
-import mailIcon from "../../assets/mailIcon.svg";
-import sendIcon from "../../assets/sendIcon.svg";
 import scrollAnimation from "../../assets/mouse.gif";
 
 const Intro = () => {
