@@ -19,7 +19,7 @@ const Home = () => {
         <About/>
         <Services/>
         <Info/>
-        <Ads/>
+        <Ads dataAdSlot='2127429688'/>
         <Whyus/>
         <HowItWorks/>
         <Team/>
