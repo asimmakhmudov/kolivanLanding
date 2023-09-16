@@ -14,7 +14,7 @@ const Ads = (props) => {
     <>
       <ins
         className="adsbygoogle"
-        style={{ display: "block", height: "auto", width: "100%"}}
+        style={{ display: "block", height: "auto", width: "100%" }}
         data-ad-client="ca-pub-6595910908105838"
         data-ad-slot={dataAdSlot}
         data-ad-format="auto"
