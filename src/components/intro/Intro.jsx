@@ -10,11 +10,11 @@ const Intro = () => {
     <div className='intro'>
       <h1>{t('intro.header')}</h1>
       <p>{t('intro.content')}</p>
-      <div className='linktoproduct'>
+      {/* <div className='linktoproduct'>
         <button>
           {t('intro.start')}
         </button>
-      </div>
+      </div> */}
       <img src={scrollAnimation} alt="scrollMouse" className='scrollMouse' />
     </div>
   );
