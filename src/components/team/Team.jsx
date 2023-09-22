@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export const Team = () => {
   const { t } = useTranslation();
   return (
-    <div className="team" id="team">
+    <div className="team" id="kolivan-komandası">
       <h1>{t("team.header")}</h1>
       <div className="teamBox">
         {TeamMembers?.map((member) => (

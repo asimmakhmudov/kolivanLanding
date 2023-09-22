@@ -11,7 +11,7 @@ const Whyus = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="whyus" id="whyus">
+    <div className="whyus" id="niyə-kolivan">
       <h2>{t("whyus.header")}</h2>
       <p>{t("whyus.description")}</p>
       <div className="whyusBox">

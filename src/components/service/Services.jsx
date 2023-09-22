@@ -9,7 +9,7 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='services' id='services'>
+    <div className='services' id='yük-və-sərnişin-daşıma-xidmətləri'>
       <h2>{t('services.header')}</h2>
       <div className='servicesBox'>
         <Service

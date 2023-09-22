@@ -7,7 +7,7 @@ export const Faqs = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="faqs" id="faqs">
+    <div className="faqs" id="kolivan-tez-tez-verilən-suallar">
       <div className="faqHeader">
         <h3>{t("faqs.header")}</h3>
       </div>

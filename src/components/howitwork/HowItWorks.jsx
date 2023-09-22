@@ -58,7 +58,7 @@ const HowItWorks = () => {
   const currentStep = steps[currentStepIndex];
 
   return (
-    <div className="howItWork" id="howItWork">
+    <div className="howItWork" id="kolivan-necə-işləyir">
       <h2>{t("how.howItWorks.title")}</h2>
       <div className="hBox">{currentStep}</div>
     </div>

@@ -48,7 +48,7 @@ const Contact = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="kolivan-əlaqə">
       <div className="formBox">
         <form onSubmit={handleSubmit}>
           <h2>{t("contact.header")}</h2>

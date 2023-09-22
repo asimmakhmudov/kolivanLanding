@@ -69,25 +69,25 @@ const Navbar = () => {
       <div className={toggleMenu ? "menu active" : "menu"}>
         <ul>
           <li>
-            <a href="/#about" onClick={toggleHandle}>{t("navbar.about")}</a>
+            <a href="/#kolivan-haqqında" onClick={toggleHandle}>{t("navbar.about")}</a>
           </li>
           <li>
-            <a href="/#services" onClick={toggleHandle}>{t("navbar.service")}</a>
+            <a href="/#yük-və-sərnişin-daşıma-xidmətləri" onClick={toggleHandle}>{t("navbar.service")}</a>
           </li>
           <li>
-            <a href="/#whyus" onClick={toggleHandle}>{t("navbar.why")}</a>
+            <a href="/#niyə-kolivan" onClick={toggleHandle}>{t("navbar.why")}</a>
           </li>
           <li>
-            <a href="/#howItWork" onClick={toggleHandle}>{t("navbar.how")}</a>
+            <a href="/#kolivan-necə-işləyir" onClick={toggleHandle}>{t("navbar.how")}</a>
           </li>
           <li>
-            <a href="/#team" onClick={toggleHandle}>{t("navbar.our")}</a>
+            <a href="/#kolivan-komandası" onClick={toggleHandle}>{t("navbar.our")}</a>
           </li>
           <li>
-            <a href="/#faqs" onClick={toggleHandle}>{t("navbar.faq")}</a>
+            <a href="/#kolivan-tez-tez-verilən-suallar" onClick={toggleHandle}>{t("navbar.faq")}</a>
           </li>
           <li>
-            <a href="/#contact" onClick={toggleHandle}>{t("navbar.contact")}</a>
+            <a href="/#kolivan-əlaqə" onClick={toggleHandle}>{t("navbar.contact")}</a>
           </li>
         </ul>
       </div>

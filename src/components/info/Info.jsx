@@ -21,7 +21,7 @@ const Info = () => {
           </a>
           </div>
         </div>
-        <img src={truckImg} alt="" />
+        <img src={truckImg} alt="yük və sərnişin daşıma xidmətləri" />
       </div>
     </div>
   );

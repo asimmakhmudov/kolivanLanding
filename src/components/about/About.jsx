@@ -33,7 +33,7 @@ const About = () => {
   };
 
   return (
-    <div className="about" id="about">
+    <div className="about" id="kolivan-haqqında">
       <div className="cont">
         <div>
           <h2>{t("about.header")}</h2>
