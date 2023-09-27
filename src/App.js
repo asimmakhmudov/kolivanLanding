@@ -18,8 +18,8 @@ i18n.init({
       translation: require('./translate/ru.json'),
     },
   },
-  lng: localStorage.getItem("language") || "az",
-  fallbackLng: "az",
+  lng: localStorage.getItem("language") || "en",
+  fallbackLng: "en",
 });
 
 function App() {

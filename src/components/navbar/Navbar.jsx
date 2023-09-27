@@ -99,11 +99,11 @@ const Navbar = () => {
             style={selectStyle}
             onChange={handleLanguageChange}
           >
-            <option value="az" selected={localLang === "" || localLang === "az"}>
-              {t("navbar.azerbaijani")}
-            </option>
-            <option value="en" selected={localLang === "en"}>
+            <option value="en" selected={localLang === "" || localLang === "en"}>
               {t("navbar.english")}
+            </option>
+            <option value="az" selected={localLang === "az"}>
+              {t("navbar.azerbaijani")}
             </option>
             <option value="ru" selected={localLang === "ru"}>
               {t("navbar.russian")}
