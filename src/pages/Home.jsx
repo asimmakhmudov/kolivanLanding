@@ -9,7 +9,6 @@ import { Footer } from '../components/footer/Footer'
 import { Team } from '../components/team/Team'
 import HowItWorks from '../components/howitwork/HowItWorks'
 import Contact from '../components/contact/Contact'
-import Ads from '../components/googleads/Ads'
 
 const Home = () => {
   return (
@@ -19,7 +18,6 @@ const Home = () => {
         <About/>
         <Services/>
         <Info/>
-        <Ads dataAdSlot='2127429688'/>
         <Whyus/>
         <HowItWorks/>
         <Team/>
