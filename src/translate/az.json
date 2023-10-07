@@ -12,42 +12,42 @@
     "russian": "RU"
   },
   "intro": {
-    "header": "Sərnişin və yük daşınması",
-    "content": "Yük və sərnişin daşınması xidmətləri üçün etibarlı və effektiv həllər təklif edir.",
-    "start": "Başla (tezliklə)"
+    "header": "Yük avtomobili və avtobus axtarışı platforması",
+    "content": "Şəxsi yük və avtobus sürücüsü olaraq öz rəqəmsal profilinizi yaradın.",
+    "start": "Başla (Tezliklə)"
   },
   "about": {
     "header": "Haqqımızda",
-    "description1": "Kolivan, nəqliyyat vasitəsini sahibləri və müştərilərlə əlaqələndirən inqilabi bir platformadır, yüklərin və sərnişinlərin daşınmasını tapmağın sadə və effektiv yolunu təmin edir. Yüksək texnologiyalı AI modellərimiz əsasən əla daşınma həlləri təklif etmək üçün istifadə olunur.",
-    "description2": "Düzgün nəqliyyat xidməti tapmaq tez-tez təəssüflü və vaxt itkilən bir iş ola bilər. Mallarınızı və sərnişinlərinizi daşımağınız lazım gəldikdə, proses tipik olaraq bir çox telefon zəngi, müzakirələr və logistika problemləri ilə əhatə olunur. Kolivan, müştərilərin asanlıqla lazım olan daşıma xidmətini tapa biləcəyi istifadəçi dostu bir platforma təmin edərək bu prosesi sadalayır.",
+    "description1": "Kolivan, şəxsi yük avtomobili və avtobus sürücülərinə öz rəqəmsal profillərini yaratmağa və daha geniş müştəri bazasına daxil olmağa imkan verən rəqəmsal profil platformasıdır.",
+    "description2": "Düzgün nəqliyyat vasitəsi axtarıb tapmaq vaxt itkisinə səbə olur. yüklərinizi və sərnişinlərinizi daşımağınız lazım gəldikdə, proses tipik olaraq bir çox telefon zəngi və müzakirələrlə sonlanır bəzən heç nəqliyyat vasitəsini necə tapacağınızı belə bilmirsiz. Kolivan, müştərilər onlara lazım olan tələbləri platformada daxil edərək uyğun nəqliyyatı və sürücü profilini tapmağa şərait yaradır",
     "readMore": "Ətraflı",
     "showLess": "Daha az"
   },
   "services": {
     "header": "Xidmətlərimiz",
     "service1": {
-      "header": "Yük daşınması",
-      "description": "Yük maşınları və digər nəqliyyat vasitələri istifadə edərək yüklərinizi təhlükəsiz şəkildə bir nöqtədən digərinə çatdırmağınız üçün yük daşınma xidməti təklif edir."
+      "header": "Yük avtomobili axtarışı",
+      "description": "Yükünüzü daşıyacaq yük avtomobili və sürücü tapmaqda çətinlik çəkirsinizsə bu xidmətdən istifadə edərək yükünüzə uyğun yük avtomobili və sürücü profilini tez bir zamanda tapıb əlaqəyə keçə bilərsiniz."
     },
     "service2": {
-      "header": "Sərnişin daşınması",
-      "description": "Sərnişin daşınma xidmətimiz fərdi şəxslər və qruplar üçün rahat və effektiv səyahət variantları təmin edir."
+      "header": "Sərnişin avtobusu axtarışı",
+      "description": "Ekskursiya və səyahətlər üçün avtobus tapmaqda çətinlik çəkirsinizsə bu xidmət tam sizə görədir. Sizə uyğun avtobus və sürücü profilini axtarış vasitəsi ilə rahatlıqla tapıb əlaqəyə keçə bilərsiniz."
     },
     "service3": {
-      "header": "Sürücü kimi daxil olun",
-      "description": "Bu xidmətdə sizə sürücü kimi qeydiyyatdan keçə, burada sizə uyğun olan sifarişləri qəbul edə və iş imkanı əldə edə bilərsiz"
+      "header": "Rəqəmsal sürücü profili yarat",
+      "description": "Bu xidmətdə sürücü kimi öz rəqamsal profilinizi yaradaraq daha geniş müştəri bazasına daxil olursunuz."
     }
   },
   "whyus": {
     "header": "Niyə Kolivan",
     "description": "Siz aşağıdakı xüsusiyyətlər əsasında bizi seçə bilərsiniz. Həmişə xidmətinizdəyik. Siz güvənli və keyfiyyətli xidmət üçün düzgün ünvandasınız.",
     "feature1": {
-      "header": "Bir Klik İlə Sifariş",
-      "description": "Bu zəng etməkdən daha asandır. Bu sayədə tək kliklə nəqliyyat ehtiyacınızı ödəyə bilərsiniz."
+      "header": "Bir klik ilə nəqliyyat tap",
+      "description": "Zənglərinizi 5 dəfəyə qədər azaldaraq büdcənizə qənaət etmiş olacaqsız. Bu sayədə tək kliklə nəqliyyat tapa bilərsiniz"
     },
     "feature2": {
       "header": "Fərdi Həll",
-      "description": "Sadəcə nə istədiyinizi bildirin və probleminizi anında həll edirik."
+      "description": "Sadəcə nə istədiyinizi platformada daxil edin. daxil etdiyinizə əsasən sizə nəticə göstəriləcək"
     },
     "feature3": {
       "header": "Mükəmməl Sürücülər",

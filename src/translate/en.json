@@ -1,8 +1,8 @@
 {
   "navbar": {
     "about": "About Us",
-    "service": "Our Service",
-    "how": "How it works",
+    "service": "Services",
+    "how": "How It Works",
     "why": "Why Choose Us",
     "our": "Our Team",
     "faq": "FAQ",
@@ -12,74 +12,73 @@
     "russian": "RU"
   },
   "intro": {
-    "header": "Transportation of passengers and cargo",
-    "content": "Cargo and passenger transportation services offer reliable and efficient solutions for moving goods and people from one location to another.",
-    "placeholder": "Enter your email",
-    "start": "Get start (soon)"
+    "header": "Truck and bus search platform",
+    "content": "Create your own digital profile as a private cargo and bus driver.",
+    "start": "Get Started (Coming Soon)"
   },
   "about": {
-    "header": "About us",
-    "description1": "Kolivan is a revolutionary platform that aims to connect vehicle owners with customers, making the process of finding cargo or passenger transportation simple and efficient. Our cutting-edge technology utilizes AI models to offer optimal transportation solutions.",
-    "description2": "Finding the right transportation service can often be a daunting and time-consuming task. Whether you need to transport goods or passengers, the process typically involves numerous phone calls, negotiations, and logistical challenges. Kolivan streamlines this process by providing a user-friendly platform where customers can easily find the transportation they need.",
-    "readMore": "Read more",
-    "showLess": "Show less"
+    "header": "About Us",
+    "description1": "Kolivan is a digital profile platform that allows private truck and bus drivers to create their own digital profiles and access a broader customer base.",
+    "description2": "Finding the right transportation vehicle can be time-consuming. When you need to transport your cargo or passengers, the process often involves multiple phone calls and discussions, sometimes not even knowing how to find the right vehicle. Kolivan creates conditions for customers to find suitable transportation and driver profiles by entering their requirements into the platform.",
+    "readMore": "Read More",
+    "showLess": "Show Less"
   },
   "services": {
     "header": "Our Services",
     "service1": {
-      "header": "Cargo transportation",
-      "description": "Trucking service delivers your cargo safely from one point to another using trucks and other vehicles"
+      "header": "Cargo Vehicle Search",
+      "description": "If you find it challenging to find a cargo vehicle and driver that suits your cargo, you can use this service to quickly find a cargo vehicle and driver profile that matches your cargo."
     },
     "service2": {
-      "header": "Passenger transportation",
-      "description": "Our passenger transportation service provides comfortable and efficient travel options for individuals and groups"
+      "header": "Passenger Bus Search",
+      "description": "If you struggle to find a bus for tours and travels, this service is perfect for you. You can easily find the right bus and driver profile using the search feature."
     },
     "service3": {
-      "header": "Sign in as a driver",
-      "description": "This service allows you to register as a driver, accept and process the orders here that are suitable for you"
+      "header": "Create a Digital Driver Profile",
+      "description": "With this service, as a driver, you create your own digital profile and gain access to a broader customer base."
     }
   },
   "whyus": {
-    "header": "Why Choose us",
-    "description": "You can choose us based on the following features. We are always at your service. You are in the right place for reliable and quality service.",
+    "header": "Why Choose Kolivan",
+    "description": "You can choose us based on the following features. We're always at your service. You're in the right place for safe and quality service.",
     "feature1": {
-      "header": "One Click Hailing",
-      "description": "This feature is easier than calling. This way you can contact us with one click"
+      "header": "Find Transportation with a Click",
+      "description": "Reducing your calls up to 5 times will save your budget. This way, you can find transportation with just one click."
     },
     "feature2": {
-      "header": "Individual Solution",
-      "description": "You just tell us what you want and we solve your problem instantly."
+      "header": "Custom Solutions",
+      "description": "Just enter what you need into the platform. The results will be shown based on your input."
     },
     "feature3": {
-      "header": "Great Drivers",
-      "description": "There is a driver rating system for customers. Through this feature, you can choose the most ideal driver for yourself."
+      "header": "Excellent Drivers",
+      "description": "For customers, there is a driver rating system. With this feature, you can choose the best driver for yourself."
     },
     "feature4": {
-      "header": "Customer Happiness",
-      "description": "We always think of our customers and do our best for their happiness."
+      "header": "Customer Satisfaction",
+      "description": "We always consider our customers and do our best for their satisfaction."
     }
   },
   "how": {
     "step1": {
-      "header": "Choose Category",
-      "paragraph": "Select a category and submit a request"
+      "header": "Select a Category",
+      "paragraph": "As a customer, choose a category and submit the order."
     },
     "step2": {
-      "header": "Send Request",
-      "paragraph": "As the driver, you will see the requests from the customer"
+      "header": "Order Acceptance",
+      "paragraph": "As a driver, you will see the order from the customer and accept the job that suits you."
     },
     "step3": {
-      "header": "Track Your Cargo",
-      "paragraph": "Drivers and customers will follow the journey in real time"
+      "header": "Track Your Cargo and Passenger Transport Process",
+      "paragraph": "Drivers and customers will track the journey in real-time."
     },
     "howItWorks": {
       "title": "How It Works"
     }
   },
   "info": {
-    "title": "For more information call us",
-    "description": "You can contact us for more information. All your questions will be answered promptly.",
-    "contactButton": "Contact us"
+    "title": "For more information, contact us",
+    "description": "You can contact us for more information. All your questions will be answered.",
+    "contactButton": "Contact Us"
   },
   "team": {
     "header": "Our Team"
@@ -88,43 +87,43 @@
     "header": "Frequently Asked Questions",
     "question1": {
       "title": "What is Kolivan?",
-      "content": "Kolivan offers a simplified and efficient process for finding cargo and passenger transportation service is a revolutionary platform that connects car owners with customers."
+      "content": "Kolivan is a platform that connects private cargo and passenger vehicle owners with customers. It simplifies the process of finding transportation services for cargo and passenger transportation."
     },
     "question2": {
       "title": "Is Kolivan available for both cargo and passenger transportation?",
-      "content": "Yes, Kolivan meets the needs of both cargo and passenger transportation, offering an optimal solution for various transportation requirements."
+      "content": "Yes, Kolivan caters to both cargo and passenger transportation needs, providing optimal solutions for various transportation requirements."
     },
     "question3": {
       "title": "What are the benefits of using Kolivan?",
-      "content": "By using Kolivan, customers can easily find transportation services without the need for multiple phone calls and negotiations. Also, car owners can maximize their earning potential by tapping into a large customer base."
+      "content": "By using Kolivan, customers can easily find transportation services without numerous calls and discussions. Additionally, vehicle owners can connect with a large customer base, maximizing their earning potential."
     },
     "question4": {
       "title": "How does Kolivan work?",
-      "content": "Kolivan uses advanced AI models to analyze various factors such as location, cargo/passenger type and available vehicles. It offers the most suitable transport solutions to customer requirements."
+      "content": "Kolivan utilizes advanced AI models to analyze various factors such as location, cargo/passenger type, and available vehicles. It then offers the most suitable transportation solutions based on customer requirements."
     }
   },
   "contact": {
     "header": "Contact Us",
-    "description": "Contact us, we will get back to you soon.",
+    "description": "Get in touch with us, and we will respond to you shortly.",
     "name": "Name",
     "namePlaceholder": "Enter your name",
     "surname": "Surname",
     "surnamePlaceholder": "Enter your surname",
     "phone": "Phone",
     "message": "Message",
-    "messagePlaceholder": "Enter message",
+    "messagePlaceholder": "Enter your message",
     "send": "Send",
     "succesHeader": "Sent!",
-    "succesDescription": "Your message has been sent successfully. We will contact you as soon as possible.",
+    "succesDescription": "Your message has been successfully sent. We will get in touch with you as soon as possible.",
     "errorHeader": "Oops!",
-    "errorDescription": "An error occurred while sending the message. Please try again."
+    "errorDescription": "There was an error while sending your message. Please try again."
   },
   "footer": {
-    "trustedPartner": "Your Trusted Partner in Transportation Services",
-    "ourServices": "Our services",
-    "cargoTransportation": "Cargo transportation",
-    "passengerTransportation": "Passenger transportation",
-    "signInAsDriver": "Sign in as a driver",
+    "trustedPartner": "Your Trusted Transportation Services",
+    "ourServices": "Our Services",
+    "cargoTransportation": "Cargo Transportation",
+    "passengerTransportation": "Passenger Transportation",
+    "signInAsDriver": "Sign In as a Driver",
     "contact": "Contact"
   }
 }

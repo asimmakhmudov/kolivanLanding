@@ -8,18 +8,15 @@ import Home from "./pages/Home";
 
 i18n.init({
   resources: {
-    en: {
-      translation: require('./translate/en.json'),
-    },
     az: {
       translation: require('./translate/az.json'),
     },
-    ru: {
-      translation: require('./translate/ru.json'),
+    en: {
+      translation: require('./translate/en.json'),
     },
   },
-  lng: localStorage.getItem("language") || "en",
-  fallbackLng: "en",
+  lng: localStorage.getItem("language") || "az",
+  fallbackLng: "az",
 });
 
 function App() {

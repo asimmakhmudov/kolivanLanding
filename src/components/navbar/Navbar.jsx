@@ -77,9 +77,9 @@ const Navbar = () => {
           <li>
             <a href="/#niyə-kolivan" onClick={toggleHandle}>{t("navbar.why")}</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/#kolivan-necə-işləyir" onClick={toggleHandle}>{t("navbar.how")}</a>
-          </li>
+          </li> */}
           <li>
             <a href="/#kolivan-komandası" onClick={toggleHandle}>{t("navbar.our")}</a>
           </li>
@@ -99,14 +99,11 @@ const Navbar = () => {
             style={selectStyle}
             onChange={handleLanguageChange}
           >
-            <option value="en" selected={localLang === "" || localLang === "en"}>
-              {t("navbar.english")}
-            </option>
-            <option value="az" selected={localLang === "az"}>
+            <option value="az" selected={localLang === "" || localLang === "az"}>
               {t("navbar.azerbaijani")}
             </option>
-            <option value="ru" selected={localLang === "ru"}>
-              {t("navbar.russian")}
+            <option value="en" selected={localLang === "en"}>
+              {t("navbar.english")}
             </option>
           </select>
           <img src={navbarBg ? blackLang : whiteLang} alt="" />
